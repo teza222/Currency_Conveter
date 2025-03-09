@@ -108,7 +108,9 @@ public class Main {
                         break;
                 }
 
-                outPutTextField.setText(String.format( "%.2f", convertedAmount[0] ));
+                if (convertedAmount[0] > 0){
+                    outPutTextField.setText(String.format( "%.2f", convertedAmount[0] ));
+                }
 
 
             }
