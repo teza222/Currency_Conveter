@@ -95,6 +95,8 @@ public class Main {
                     System.out.println("Cannot convert a null value");
                     //catches if string is empty or non-numerical value entered
                     JOptionPane.showMessageDialog(null,"Please input a valid numerical value!");
+                    inputTextField.setText("");
+
                 }
 
 
