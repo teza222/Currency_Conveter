@@ -58,7 +58,7 @@ public class Main {
 
 
         JButton convertBtn = new JButton("Convert");
-        convertBtn.setBounds(60, 120,100,35);
+        convertBtn.setBounds(60, 120,100,25);
         convertBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -68,7 +68,7 @@ public class Main {
         panel.add(convertBtn);
 
         JButton clearBtn = new JButton("Clear");
-        clearBtn.setBounds(160, 120,100,35);
+        clearBtn.setBounds(160, 120,100,25);
         clearBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
