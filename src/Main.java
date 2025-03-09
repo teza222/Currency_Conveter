@@ -8,6 +8,15 @@ import java.io.Console;
 import java.io.File;
 import java.io.IOException;
 
+
+/**Group Members
+ * Everton Richards
+ * Asheka Quallo
+ * Adrian Williams
+ * Andre Mcmillon
+ */
+
+
 public class Main {
     public static void main(String[] args) {
 
