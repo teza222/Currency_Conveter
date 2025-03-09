@@ -112,7 +112,6 @@ public class Main {
                     outPutTextField.setText(String.format( "%.2f", convertedAmount[0] ));
                 }
 
-
             }
         });
         panel.add(convertBtn);
